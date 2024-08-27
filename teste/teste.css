@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    width: 200px;
+    background-color: #333; /* Cor do fundo da barra lateral */
+    color: #fff; /* Cor do texto da barra lateral */
+    padding: 20px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 10px;
+}
+
+.sidebar ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+}
+
+header {
+    background-color: #ff0000; /* Cor do cabeçalho */
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    color: #ffffff; /* Cor do texto do cabeçalho */
+}
+
+input[type="text"] {
+    padding: 5px;
+    width: 300px;
+    margin-top: 10px;
+}
+
+button {
+    padding: 5px 10px;
+    background-color: #ffffff; /* Cor do botão */
+    border: none;
+    cursor: pointer;
+}
+
+.videos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.video {
+    width: 300px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #cccccc; /* Cor da borda dos vídeos */
+}
+
+.video img {
+    width: 100%;
+}
+
+.video h2 {
+    margin: 10px 0;
+}
+
+.video p {
+    color: #666666; /* Cor do texto da descrição do vídeo */
+}
